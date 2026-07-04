@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comunidade Cyber</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* Estilos Gerais */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: radial-gradient(circle, #1a1c23 0%, #0f1015 100%);
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        /* Container Principal */
+        .container {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.03);
+            padding: 40px 30px;
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+            max-width: 450px;
+            width: 100%;
+        }
+
+        /* Título Principal */
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+            background: linear-gradient(45deg, #00ffcc, #0077ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        /* Grupo de Botões */
+        .links-group {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        /* Estilização dos Botões */
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px; /* Espaço entre o ícone e o texto */
+            padding: 15px 25px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            text-decoration: none;
+            color: #ffffff;
+            border-radius: 12px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Ícones dentro dos botões */
+        .btn i {
+            font-size: 1.4rem;
+        }
+
+        /* Botão do Discord */
+        .btn-discord {
+            background: #5865F2;
+        }
+
+        .btn-discord:hover {
+            background: #4752C4;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(88, 101, 242, 0.4);
+        }
+
+        /* Botão do YouTube */
+        .btn-youtube {
+            background: #FF0000;
+        }
+
+        .btn-youtube:hover {
+            background: #CC0000;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(255, 0, 0, 0.4);
+        }
+
+        /* Rodapé de Direitos Autorais */
+        footer {
+            margin-top: 40px;
+            font-size: 0.85rem;
+            color: rgba(255, 255, 255, 0.4);
+            letter-spacing: 0.5px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Comunidade Cyber</h1>
+
+        <div class="links-group">
+            <a href="https://discord.gg/ZdJCchX3q" target="_blank" class="btn btn-discord">
+                <i class="fa-brands fa-discord"></i> Entrar no Discord
+            </a>
+
+            <a href="https://www.youtube.com/@cybernodry" target="_blank" class="btn btn-youtube">
+                <i class="fa-brands fa-youtube"></i> Acessar Canal no YouTube
+            </a>
+        </div>
+
+        <footer>
+            &copy; 2026 cybernodry. Todos os direitos reservados.
+        </footer>
+    </div>
+
+</body>
+</html>
